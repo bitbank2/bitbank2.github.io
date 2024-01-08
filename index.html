@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Arduino Nano BLE Sense - Web BLE test</title>
+  <title>M5Stack Core2 - Web BLE test</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@jaames/iro/dist/iro.min.js"></script>
@@ -76,7 +76,7 @@
 <body>
 
   <div class="container">
-    <div class="label">&nbsp;&nbsp;IMPORTANT - first upload <a href="https://create.arduino.cc/editor/dpajak/e4128780-d76d-438f-97a4-541740cb0473/preview">sketch</a> to Arduino Nano 33 BLE Sense board<br></div>
+    <div class="label">&nbsp;&nbsp;IMPORTANT - first upload <a href="https://create.arduino.cc/editor/dpajak/e4128780-d76d-438f-97a4-541740cb0473/preview">sketch</a> to Core2 device<br></div>
     <div class="status widget">
       <button id="bigButton"></button>
       <div class="label" id="bluetooth">Click button to connect to the board</div>
@@ -452,8 +452,8 @@ function init3D(){
   renderer.setSize( 177, 177 );
   renderer.setPixelRatio( 4 );
   container.appendChild( renderer.domElement );
-  loader.load( 'models/nano33ble.glb',
-  // called when the Arduinio model is loaded
+  loader.load( 'models/m5core2.glb',
+  // called when the Core2 model is loaded
   function ( gltf ) {
 
     // Model
